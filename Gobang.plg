@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Gobang - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Gobang.res" /d "_DEBUG" "F:\五子棋项目\Gobang9_7\Gobang.rc"" 
+Creating temporary file "C:\Users\hbc\AppData\Local\Temp\RSP90EA.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\五子棋项目\Gobang9_7\Gobang.cpp"
+]
+Creating command line "cl.exe @C:\Users\hbc\AppData\Local\Temp\RSP90EA.tmp" 
+Creating temporary file "C:\Users\hbc\AppData\Local\Temp\RSP90EB.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Gobang.pdb" /debug /machine:I386 /out:"Debug/Gobang.exe" /pdbtype:sept 
+".\Debug\BCMenu.obj"
+".\Debug\bmpPicture.obj"
+".\Debug\BtnST.obj"
+".\Debug\CeXDib.obj"
+".\Debug\ComputerHarder.obj"
+".\Debug\computerPlayer.obj"
+".\Debug\ComputerSimple.obj"
+".\Debug\ConfigDlg.obj"
+".\Debug\GameHallDlg.obj"
+".\Debug\GameManager.obj"
+".\Debug\GamePlayer.obj"
+".\Debug\Gobang.obj"
+".\Debug\GobangAboutDlg.obj"
+".\Debug\GobangChess.obj"
+".\Debug\GobangDlg.obj"
+".\Debug\HumanPlayer.obj"
+".\Debug\MusicPlayer.obj"
+".\Debug\NetwordSeting.obj"
+".\Debug\ShadeButtonST.obj"
+".\Debug\StartUp.obj"
+".\Debug\StartUpAnimation.obj"
+".\Debug\StdAfx.obj"
+".\Debug\tcpClientDlg.obj"
+".\Debug\TcpMessager.obj"
+".\Debug\UdpMessager.obj"
+".\Debug\WinXPButtonST.obj"
+".\Debug\Gobang.res"
+]
+Creating command line "link.exe @C:\Users\hbc\AppData\Local\Temp\RSP90EB.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Gobang.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Gobang.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
